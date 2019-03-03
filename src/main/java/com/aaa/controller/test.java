@@ -11,7 +11,7 @@ public class test {
 	@RequestMapping("t1")
 	public String t1(){
 		System.out.println("sss");
-		return "/forground/test01";
+		return "forground/test01";
 	}
 	
 	@RequestMapping("t2")
