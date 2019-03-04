@@ -10,7 +10,7 @@ public class test {
 	
 	@RequestMapping("play")
 	public String t1(){
-		System.out.println("sss");
+		System.out.println("sssa");
 		return "forground/play";
 	}
 	
