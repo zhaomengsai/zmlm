@@ -8,22 +8,22 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("test")
 public class test {
 	
-	@RequestMapping("play")
+	@RequestMapping("t1")
 	public String t1(){
-		System.out.println("sssaa");
-		return "forground/play";
+		System.out.println("ccc");
+		return "/forground/test01";
 	}
 	
-	@RequestMapping("seek")
+	@RequestMapping("t3")
 	public String t3(){
 		System.out.println("bbb");
-		return "/forground/seek";
+		return "/forground/zhubo";
 	}
 	
-	@RequestMapping("uploading")
+	@RequestMapping("t4")
 	public String t4(){
 		System.out.println("lll");
-		return "/forground/uploading";
+		return "/forground/login";
 	}
 	
 	
