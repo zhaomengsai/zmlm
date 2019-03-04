@@ -11,8 +11,13 @@ public class test {
 	@RequestMapping("t1")
 	public String t1(){
 		System.out.println("sss");
-		System.out.println("aaa");
 		return "forground/test01";
+	}
+	
+	@RequestMapping("t2")
+	public String t2(){
+		System.out.println("aaa");
+		return "forground/zhubo";
 	}
 	
 	@RequestMapping("t2")
