@@ -11,14 +11,21 @@ public class test {
 	@RequestMapping("t1")
 	public String t1(){
 		System.out.println("sss");
-		return "forground/test01";
+		return "/forground/test01";
 	}
 	
-	@RequestMapping("t2")
-	public String t2(){
-		System.out.println("aaa");
-		return "forground/zhubo";
+	@RequestMapping("t3")
+	public String t3(){
+		System.out.println("bbb");
+		return "/forground/zhubo";
 	}
+	
+	@RequestMapping("t4")
+	public String t4(){
+		System.out.println("lll");
+		return "/forground/login";
+	}
+	
 	
 	@RequestMapping("t2")
 	@ResponseBody
