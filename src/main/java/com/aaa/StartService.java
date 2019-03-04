@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StartService {
 
 	public static void main(String[] args) {
-		System.out.println("start");
-		System.out.println("start");
+		
+		System.out.println("starts");
 		SpringApplication.run(StartService.class, args);
 
 	}
