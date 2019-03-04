@@ -14,6 +14,19 @@ public class test {
 		return "forground/test01";
 	}
 	
+	@RequestMapping("t3")
+	public String t3(){
+		System.out.println("bbb");
+		return "/forground/zhubo";
+	}
+	
+	@RequestMapping("t4")
+	public String t4(){
+		System.out.println("lll");
+		return "/forground/login";
+	}
+	
+	
 	@RequestMapping("t2")
 	@ResponseBody
 	public Integer t2(String s1){
